@@ -44,7 +44,7 @@ jobs:
       - name: Установка библиотек
         run: pip install -r requirements.txt
 
-      - name: Линтинг
+      - name: Линтингu
         run:  flake8 logistic/ --exclude=logistic/migrations/
 
       - name: Тестирование
